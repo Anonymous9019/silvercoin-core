@@ -1,57 +1,76 @@
-# 🪙 SilverCoin (SVC)
+# SilverCoin Core
 
-**SilverCoin is a Bitcoin-based cryptocurrency designed to serve as "Digital Silver".**  
-It inherits Bitcoin’s proven economic structure — fixed supply, Proof-of-Work mining, and halving cycles — while aiming to offer a more accessible and lighter alternative.
-
-**SilverCoin은 디지털 실버를 지향하는 비트코인 기반 암호화폐입니다.**  
-한정된 발행량, 작업증명(PoW), 반감기 구조 등 비트코인의 철학을 계승하면서도 보다 접근성 높은 코인을 목표로 합니다.
+The official implementation of SilverCoin (SVC), the digital silver blockchain.  
+공식 SilverCoin(디지털 실버 블록체인) 구현체입니다.
 
 ---
 
-## 📌 Key Features | 주요 특징
+## 🪙 SilverCoin (SVC)
 
-- 🔗 **Bitcoin-based codebase**  
-  비트코인 코어 기반 코드로 안정성과 검증된 구조 제공
+**SilverCoin**은 디지털 시대의 ‘실버’를 지향하는 새로운 탈중앙화 블록체인 프로젝트입니다.  
+비트코인이 '디지털 골드'라면, SilverCoin은 '디지털 실버'입니다.  
+더 많은 사람에게 열려 있고, 접근 가능하며, 희소성을 갖춘 안전한 가치 저장 수단을 제공합니다.
 
-- 💎 **Total Supply: 50,000,000 SVC**  
-  총 발행량: 5천만 개로 고정
-
-- ⛏️ **Mining Algorithm: Proof-of-Work (PoW)**  
-  채굴 방식: 작업증명 방식
-
-- 🎁 **Initial Block Reward: 100 SVC**  
-  초기 보상: 블록당 100 SVC (210,000 블록마다 반감)
-
-- ⏱️ **Block Time: 10 minutes**  
-  블록 생성 간격: 10분
-
-- 🗓️ **Final mining year: 2140 (estimated)**  
-  최종 채굴 완료 예상 시점: 2140년
+**SilverCoin** is a new decentralized blockchain project inspired by the concept of "digital silver."  
+If Bitcoin is digital gold, then SilverCoin aims to become digital silver —  
+an accessible, limited, and stable store of value for everyone.
 
 ---
 
-## 🧱 Project Structure | 프로젝트 구조
+## 🔑 주요 특징 (Key Features)
 
-| Folder       | Description (EN)                   | 설명 (KR)                             |
-|--------------|------------------------------------|----------------------------------------|
-| `src/`       | Core SilverCoin implementation     | SilverCoin의 핵심 구현 코드             |
-| `doc/`       | Documentation and license info     | 문서 및 라이선스 정보                   |
-| `contrib/`   | Developer tools & scripts          | 빌드 유틸리티 및 지갑 도구 모음         |
-
----
-
-## 🎯 Vision & Goal | 비전 및 목표
-
-> **To become the global standard of Digital Silver.**  
-> A fair, decentralized, and mineable coin that offers long-term value.
-
-> **전 세계에서 통용되는 디지털 실버의 기준이 되는 것.**  
-> 누구나 채굴할 수 있고, 분산성과 희소성을 동시에 갖춘 암호자산을 지향합니다.
+| 항목 (Item)                     | 내용 (Details)                                 |
+|-------------------------------|------------------------------------------------|
+| 💠 총 발행량 (Total Supply)     | 50,000,000 SVC (고정 공급 / Fixed supply)      |
+| ⛏️ 채굴 방식 (Mining Algorithm) | Proof of Work (SHA-256)                        |
+| ⏱️ 블록 생성 간격 (Block Time)  | 10분마다 1블록 / 1 block every 10 minutes     |
+| 🔄 반감기 주기 (Halving Cycle)  | 210,000 블록마다 / Every 210,000 blocks       |
+| 🎯 최종 채굴 목표 연도          | 2140년 / Year 2140                             |
 
 ---
 
-## 🧑‍💻 Developer Quickstart | 개발자 빠른 시작
+## 🚀 비전 (Vision)
 
-```bash
-git clone https://github.com/Anonymous9019/Silvercoin-core.git
-cd Silvercoin-core
+**SilverCoin**은 실버처럼 안정적이면서도 대중적인 자산이 되는 것을 목표로 합니다.  
+누구나 쉽게 채굴하고 거래할 수 있는 실용적인 디지털 실버로서  
+탈중앙화, 보안성, 그리고 접근성을 갖춘 새로운 가치 저장 수단을 제공합니다.
+
+**SilverCoin** strives to become a widely accessible and reliable digital asset, just like silver in the real world.  
+By combining decentralization, scarcity, and ease of use, we aim to offer a practical store of value suitable for the modern era.
+
+---
+
+## 📂 개발 현황 (Development Status)
+
+| 항목 (Item)                   | 상태 (Status)         |
+|------------------------------|------------------------|
+| 프로젝트 기획 (Planning)      | ✅ 완료 (Completed)     |
+| 로고 디자인 (Logo Design)     | ✅ 완료 (Completed)     |
+| GitHub 저장소 생성            | ✅ 완료 (Completed)     |
+| 채굴 보상 설계                | ✅ 완료 (Completed)     |
+| 제네시스 블록 생성            | 🛠️ 진행 예정 (In Progress) |
+| 테스트넷 가동                  | 🛠️ 예정 (Planned)       |
+| 메인넷 출시                    | 🔜 곧 출시 (Coming Soon) |
+
+---
+
+## 📌 사용 기술 (Technologies Used)
+
+- Bitcoin Core 코드 포크 / Forked from Bitcoin Core  
+- C++ 기반 구현 / Written in C++  
+- SHA-256 채굴 알고리즘 / SHA-256 PoW Algorithm  
+- MIT 오픈소스 라이선스 / Open-source under MIT License
+
+---
+
+## 📧 연락처 및 커뮤니티 (Contact & Community)
+
+- GitHub Issue로 피드백 접수 (Submit feedback via GitHub Issues)
+- 커뮤니티 채널 예정 (Discord, Twitter 등 / Coming Soon)
+
+---
+
+## 📄 라이선스 (License)
+
+이 프로젝트는 MIT License를 따릅니다.  
+This project is licensed under the MIT License.
