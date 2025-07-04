@@ -1,4 +1,5 @@
-![SilverCoin Logo](https://github.com/Anonymous9019/Silvercoin-core/blob/main/SILVERCOIN SIMBOL.png?raw=true)
+![SilverCoin Logo](https://github.com/Anonymous9019/Silvercoin-core/blob/main/silvercoin-logo.png?raw=true)
+
 
 # SilverCoin Core
 
