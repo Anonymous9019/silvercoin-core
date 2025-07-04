@@ -1,3 +1,5 @@
+![SilverCoin Logo](https://github.com/Anonymous9019/Silvercoin-core/blob/main/SILVERCOIN SIMBOL.png?raw=true)
+
 # SilverCoin Core
 
 The official implementation of SilverCoin (SVC), the digital silver blockchain.  
